@@ -1,0 +1,261 @@
+:root {
+  --title-color: #2e2f42;
+  --main-text-color: #434455;
+  --accent-color: #4d5ae5;
+  --logo-text-color: #f4f4fd;
+  --background-color-white: #ffffff;
+  --paragraf-color: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--background-color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*! -----------HEADER------------- */
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.header-logo-dark {
+  color: #2e2f42;
+}
+.header-logo-dark:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+.header-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-menu:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+.header-soc {
+  font-style: normal;
+}
+
+.header-soc-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-soc-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+/*! -----------HEADER------------- */
+
+.effective {
+  background: #2e2f42;
+}
+.effective-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.effective-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.effective-btn:is(:hover, :focus) {
+  background: #404bbf;
+}
+
+/*! -----------peculiarities------------- */
+
+.peculiarities {
+}
+
+.peculiarities-list {
+}
+
+.peculiarities-item {
+}
+
+.peculiarities-subtitle {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.peculiarities-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.products-title {
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+/** -----------------------TEAM------------------- */
+
+.team {
+  background: #f4f4fd;
+}
+.team-title {
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+.team-list {
+  background: #ffffff;
+}
+
+.team-foto {
+}
+
+.team-name {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.team-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ---------------------footer-------------------- */
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.footer-logo-white {
+  color: var(--logo-text-color);
+}
+.footer-logo-white:is(:hover, :focus) {
+  color: #404bbf;
+}
+.footer-window {
+  background: var(--title-color);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-color);
+}
+
+/* --------------Portfolio------------------ */
+
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  cursor: pointer;
+  background-color: var(--paragraf-color);
+}
+
+.filter-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.products-list {
+  list-style: none;
+}
+.project-img {
+  text-decoration: none;
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  font-style: normal;
+}
