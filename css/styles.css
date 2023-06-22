@@ -201,7 +201,6 @@ img {
 
 .peculiarities-list {
   display: flex;
-
   gap: 24px;
 }
 
@@ -352,18 +351,17 @@ img {
 /* --------------Portfolio------------------ */
 .container-portfolio {
   padding: 96px 0 120px 0;
-  justify-content: center;
 }
 .filter-btn-list {
   display: flex;
+  flex-direction: row;
   gap: 24px;
-  align-items: center;
   flex-grow: 1;
   margin-bottom: 72px;
-  padding-left: 271px;
-  padding-right: 271px;
   max-width: 586px;
+  justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .filter-btn {
@@ -377,7 +375,7 @@ img {
   background-color: var(--paragraf-color);
   display: flex;
   flex-direction: row;
-
+  justify-content: center;
   align-items: center;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
