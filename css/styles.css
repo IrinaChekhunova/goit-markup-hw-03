@@ -363,6 +363,7 @@ img {
   padding-right: 271px;
   max-width: 586px;
   text-align: center;
+  justify-content: center;
 }
 
 .filter-btn {
@@ -389,6 +390,7 @@ img {
 .filter-btn:is(:hover, :focus) {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .project-list {
@@ -412,7 +414,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .project-text {
@@ -425,6 +427,6 @@ img {
 }
 
 .container-text {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
